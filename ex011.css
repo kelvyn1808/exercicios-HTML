@@ -1,4 +1,4 @@
-a{
+a, h1{
   color: black;
   background-color: rgb(94, 188, 250);
   font-size: 32px;
@@ -10,13 +10,26 @@ a{
   /*padding-bottom: 50px;*/
   /*padding-top: 50px; colocar espaçamento interno */
   
-  padding: 20px 90px;
+  padding: 20px 40px;
   
   /*border-radius: 10px 20px 30px 40px; colocar valor nas 4 bordas*/
   border-radius: 100px;
   
   border: black solid 4px;
+  /*borda*/
+  box-shadow: 10px 10px 0px  black;
+  /*sombra*/
+    transition: 1s;
+    /*tempo de transição*/
 }
+
+ a:hover {
+  background-color: rgb(30, 130, 245);
+  color: white;
+  box-shadow: none;
+}
+
+
 /*criar o style a partir de outra pagina de css e linkar uma na outra */
 /*colocando virgula no H consigo ordenar aonde vai ser 
 implementado o style sem criar varias caixsas*/
