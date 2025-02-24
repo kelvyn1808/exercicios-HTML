@@ -1,0 +1,11 @@
+h1,h2,h3{
+  color: red;
+  background-color: blue;
+  font-size: 15px;
+  font-family: Verdana;
+  text-align: center;
+  
+}
+/*criar o style a partir de outra pagina de css e linkar uma na outra */
+/*colocando virgula no H consigo ordenar aonde vai ser 
+implementado o style sem criar varias caixsas*/
